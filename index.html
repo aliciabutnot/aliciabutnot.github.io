@@ -16,10 +16,18 @@
         <br><br>
         <button style="font-family: Love Light; font-size:25px; cursor:pointer; border:none; background-color:white; border-radius:10px;">What is Angelex?</button></center>
     </div>
+    <p id="extra">stuff</p>
     <style>
       button:hover{
-         transform: scale(1.5) perspective(1px);
+         transform: scale(1.25) perspective(1px);
       }
     </style>
+    <script>
+    //This is where are the onclick="" functions will go
+      
+    function addtext(text) {
+      document.body.getElementById('bottom').innerHTML = "<div style='position:fixed;top:0;background-color:#FFC0CB'><button onclick='document.body.getElementById(\"\").innerHTML = \"\"'>Close</button></div>";
+    }
+    </script>
   </body>
 </html>
