@@ -14,7 +14,7 @@
     <div>
         <img src="images/1.png" width="684px" height="398.25px" style="border-radius:15px; cursor:pointer;">
         <br><br>
-        <button id="btn" style="font-family: Love Light; font-size:25px; cursor:pointer; border:none; background-color:white; border-radius:10px;" onclick="addpopup()">What is Angelex?</button></center>
+        <button id="btn" style="font-family: Love Light; font-size:25px; cursor:pointer; border:none; background-color:white; border-radius:10px;">What is Angelex?</button></center>
     </div>
     <p id="bottom"></p>
     <style>
@@ -24,7 +24,10 @@
     </style>
     <script>
     //This is where are the onclick="" functions will go
-      btn.onclick = function addpopup() {document.body.getElementById('bottom').innerHTML = "<div style='position:fixed;top:0;background-color:#FFC0CB'><button onclick='document.body.getElementById(\"\").innerHTML = \"\"'>Close</button></div>";}
+      document.getElementById("btn").onclick = function() {addpopup();}
+      function addpopup() {
+        document.body.getElementById('bottom').innerHTML = "<div style='position:fixed;top:0;background-color:#FFC0CB'><button onclick='document.body.getElementById(\"\").innerHTML = \"\"'>Close</button></div>";
+      }
     </script>
   </body>
 </html>
