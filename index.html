@@ -21,6 +21,15 @@
       button:hover{
          transform: scale(1.25) perspective(1px);
       }
+      .par {
+        transition: all 1s;
+        max-height: 300px;
+    }
+
+      .par.pre-animation {
+        opacity:0;
+        max-height: 0;
+    }
     </style>
     <script>
       const par = document.querySelector(".par");
