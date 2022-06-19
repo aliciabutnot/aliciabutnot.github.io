@@ -9,7 +9,7 @@ button:hover{
           -ms-user-select: none;
           user-select: none; 
 }
-#front {
+.front {
          position:fixed;
          text-align:center;
          background-color:#FFC0CB;
