@@ -9,12 +9,3 @@ button:hover{
           -ms-user-select: none;
           user-select: none; 
 }
-.front {
-         position:fixed;
-         text-align:center;
-         background-color:#FFC0CB;
-         width:100%;height:100%;
-         margin:auto;
-         top:0px;
-         left:0px
-}
